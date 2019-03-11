@@ -1,0 +1,5 @@
+name "blah"
+description "A minimal D application."
+authors "Ali Akhtarzada"
+copyright "Copyright © 2019, Ali Akhtarzada"
+dependency "ddash" path="../ddash"
