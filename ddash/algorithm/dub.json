@@ -1,18 +1,4 @@
 {
-	"configurations": [
-		{
-			"name": "library",
-			"targetType": "library"
-		}
-	],
-	"importPaths": [
-		"source/"
-	],
 	"name": "algorithm",
-	"sourcePaths": [
-		"source/"
-	],
-	"targetPath": "../bin",
-	"targetType": "library",
-	"version": "~master"
+	"targetPath": "../bin"
 }

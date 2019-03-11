@@ -1,29 +1,19 @@
 {
+	"name": "ddash",
+	"description": "Utility library for D",
+	"copyright": "Copyright © 2017, Ali Akhtarzada",
+	"license": "MIT",
 	"authors": [
 		"Ali Akhtarzada"
 	],
-	"configurations": [
-		{
-			"importPaths": [
-				"."
-			],
-			"name": "unittest",
-			"sourcePaths": [
-				"./algorithm/"
-			],
-			"targetType": "library"
-		}
-	],
-	"copyright": "Copyright © 2017, Ali Akhtarzada",
-	"dependencies": {
-		"ddash:algorithm": ">=0.0.0"
-	},
-	"description": "Utility library for D",
-	"license": "MIT",
-	"name": "ddash",
+	"importPaths" : [ "." ],
+	"sourcePaths" : [ "." ],
 	"subPackages": [
 		"./algorithm/"
 	],
+	"dependencies": {
+		"ddash:algorithm": ">=0.0.0"
+	},
 	"targetPath": "bin",
 	"version": "0.13.2"
 }
